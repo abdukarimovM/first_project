@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 1-div */
+.page_yellow{
+    background-color:yellow;
+    width: 100%;
+    height: auto;
+}
+.logo{
+    color: #8c8c8c;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px 30px 15px;
+}
+.page_yellow .logo .menu{
+    color: black;
+}
+.img{
+    position: relative;
+}
+.round{
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: -950px 100px 0px;
+    border-radius: 50px;
+}
+.word{
+    margin-top: -800px;
+    margin-left: 100px;
+    position: absolute;
+    color: white;
+    font-size: 80px;
+}
+.square1, .square2, .square3, .square4{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: black;
+    height: 240px;
+    background-color: yellow;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -400px;
+}
+.square1{
+    margin-left: 100px;
+}
+.square2{
+    margin-left: 450px;
+}
+.square3{
+    margin-left: 800px;
+}
+.square4{
+    margin-left: 1150px;
+}
+.yozuv{
+    font-size: 50px;
+}
+.kichik_yozuv{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+.text_1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.btn_1{
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 200px;
+    margin-right: 40px;
+}
+/* 2-div */
+.page_black{
+    background-color: black;
+    width: 100%;
+    height: 2400px;
+    padding-top: 120px;
+}
+.round_2{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+.word_1{
+    margin-left: 100px;
+    font-size: 60px;
+    color: white;
+    margin-top: 50px;
+}
+.word_1 .word_2{
+    font-size: 25px;
+    text-align: justify;
+    width: 35%;
+    /* word-spacing: 5px; */
+    color: grey;
+    margin-top: 30px;
+    
+}
+.img_2{
+    float: right;
+    margin-top: -500px;
+    /* margin-left: -200px; */
+    margin-right: 170px;
+    position: relative;
+}
+.round_3{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    left: 1460px;
+    /* margin-top: -100px; */
+}
+.icons_2{
+    color: yellow;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 30px;
+    word-spacing: 15px;
+}
+.yellow_page_2{
+    width: 50%;
+    background-color: yellow;
+    height: 1100px;
+    margin: 150px auto 0;
+    padding-top: 200px;
+}
+.yellow_page_2 img{
+    transform: scale(1.4);
+}
+.word_3{
+    color: black;
+    font-size: 60px;
+    margin: 180px 240px 0;
+}
+.word_4{
+    font-size: 25px;
+    color: grey;
+    text-align: center;
+    padding: 50px 40px;
+}
+.btn_1{
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 200px;
+    margin-right: 40px;
+}
+.btn_2{
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 200px;
+    margin-left: 300px;
+}
+.page_clients{
+    position: relative;
+}
+.div_clients{
+    color: white;
+    margin-top: -750px;
+    position: absolute;
+    text-align: center;
+}
+.div_clients .h_1{
+    font-size: 60px;
+    margin-left: 230px;
+}
+.div_clients .p_1{
+    margin-top: 60px;
+    font-size: 25px;
+    margin-left: 210px;
+}
+.comp{
+    margin-top: -400px;
+    position: absolute;
+}
+.apple, .facebook, .insta, .amazon{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    position: absolute;
+}
+.apple{
+    margin-left: 100px;
+}
+.amazon{
+    margin-left: 480px;
+}
+.facebook{
+    margin-left: 870px;
+}
+.insta{
+    margin-left: 1250px;
+}
+.text_s{
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+}
+.Lyellow_page{
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    margin-top: -40px;
+    position: relative;
+}
